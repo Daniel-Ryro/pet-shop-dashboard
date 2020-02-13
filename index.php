@@ -1,21 +1,22 @@
 <?php
-$vari=16;
-$vari=10; ?>
-
+    include('bdd.php');
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href='index.css'>
+    <title>Home - Petshop</title>
+        
 </head>
-<body>
-    
-    
+<body style='height: 1000px'>
+    <?php include('header.php');?>
+    <center>
+        <h1> PetShop banho & tosa </h1>
+        <div class='panel'>
+        <img src="img/dog.jpg" width='40%'>
+        </div>
+    </center>
+
+
 </body>
 </html>
-
-
-
-
-
